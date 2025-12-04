@@ -47,7 +47,7 @@ export default function Reflexoes1({ setPage }) {
       {/* Imagem do artigo */}
       <div style={{ maxWidth: "1200px", margin: "0 auto 35px auto" }}>
         <img
-          src="/reflexoes1.jpg"
+          src={import.meta.env.BASE_URL + "reflexoes1.jpg"}
           alt="Victor Hess em um balão de hidrogênio"
           style={{
             width: "100%",
@@ -238,3 +238,4 @@ export default function Reflexoes1({ setPage }) {
     </div>
   );
 }
+
