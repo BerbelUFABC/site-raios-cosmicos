@@ -130,7 +130,7 @@ export default function Reflexoes1({ setPage }) {
           }}
         >
           <img
-            src={import.meta.env.BASE_URL + "banner.jpg"} 
+            src={import.meta.env.BASE_URL + "grafico.jpg"} 
             alt="Espectro de raios cósmicos"
             style={{
               maxWidth: "790px",
@@ -238,5 +238,6 @@ export default function Reflexoes1({ setPage }) {
     </div>
   );
 }
+
 
 
