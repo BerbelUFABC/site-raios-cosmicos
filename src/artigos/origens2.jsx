@@ -54,7 +54,7 @@ export default function Origens2() {
         }}
       >
         <img
-          src="/origens2.jpg"
+          src={import.meta.env.BASE_URL + "origens2.jpg"}
           alt="Imagem relacionada ao artigo"
           style={{
             width: "100%",
@@ -202,3 +202,4 @@ export default function Origens2() {
     </div>
   );
 }
+
