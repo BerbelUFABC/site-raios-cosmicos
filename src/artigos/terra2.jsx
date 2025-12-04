@@ -57,7 +57,7 @@ export default function Terra2() {
         }}
       >
         <img
-          src="/terra2.jpg"
+          src={import.meta.env.BASE_URL + "terra2.jpg"}
           alt="Jato relativístico emanando de um buraco negro"
           style={{
             width: "100%",
@@ -195,3 +195,4 @@ export default function Terra2() {
     </div>
   );
 }
+
