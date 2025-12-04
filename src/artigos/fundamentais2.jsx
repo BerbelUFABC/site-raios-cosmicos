@@ -55,7 +55,7 @@ export default function Fundamentais2() {
         }}
       >
         <img
-          src="/fundamentais2.jpg"
+          src={import.meta.env.BASE_URL + "fundamentais2.jpg"}
           alt="Ilustração científica relacionada ao tema"
           style={{
             width: "100%",
@@ -179,3 +179,4 @@ export default function Fundamentais2() {
     </div>
   );
 }
+
