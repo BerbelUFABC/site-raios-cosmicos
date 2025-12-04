@@ -441,10 +441,10 @@ export default function SimulationPage() {
       } else {
         let filePath, normalize;
         if (simulationType === "uniforme") {
-          filePath = "/Positions-p-uni.dat";
+          filePath = import.meta.env.BASE_URL + "Positions-p-uni.dat";
           normalize = false;
         } else if (simulationType === "variavel") {
-          filePath = "/Positions-p-var.dat";
+          filePath = import.meta.env.BASE_URL + "Positions-p-var.dat";
           normalize = true;
         } else {
           throw new Error("Tipo de simulação desconhecido.");
@@ -776,3 +776,4 @@ export default function SimulationPage() {
     </div>
   );
 }
+
