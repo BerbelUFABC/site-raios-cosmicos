@@ -55,7 +55,7 @@ export default function Origens3({ setPage }) {
         }}
       >
         <img
-          src="/origens3.jpg"
+          src={import.meta.env.BASE_URL + "origens3.jpg"}
           alt="Imagem principal do artigo"
           style={{
             width: "100%",
@@ -238,3 +238,4 @@ export default function Origens3({ setPage }) {
     </div>
   );
 }
+
