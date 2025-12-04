@@ -49,7 +49,7 @@ export default function Fundamentais3() {
       {/* Imagem */}
       <div style={{ width: "100%", marginBottom: "35px" }}>
         <img
-          src="/fundamentais3.jpg"
+          src={import.meta.env.BASE_URL + "fundamentais3.jpg"}
           alt="Imagem relacionada ao artigo"
           style={{
             width: "100%",
@@ -179,3 +179,4 @@ export default function Fundamentais3() {
     </div>
   );
 }
+
