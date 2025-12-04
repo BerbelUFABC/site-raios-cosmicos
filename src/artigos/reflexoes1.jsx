@@ -120,7 +120,7 @@ export default function Reflexoes1({ setPage }) {
           aceleração das fontes e efeitos de propagação.
         </p>
 
-        {/* --- IMAGEM DO GRAFICO INSERIDA AQUI --- */}
+        {/* --- IMAGEM DO GRAFICO  --- */}
         <div
           style={{
             width: "100%",
@@ -130,7 +130,7 @@ export default function Reflexoes1({ setPage }) {
           }}
         >
           <img
-            src="/grafico.jpg"
+            src={import.meta.env.BASE_URL + "banner.jpg"} 
             alt="Espectro de raios cósmicos"
             style={{
               maxWidth: "790px",
@@ -238,4 +238,5 @@ export default function Reflexoes1({ setPage }) {
     </div>
   );
 }
+
 
