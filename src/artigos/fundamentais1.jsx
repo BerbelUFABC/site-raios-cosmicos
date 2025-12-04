@@ -49,7 +49,7 @@ export default function Fundamentais1() {
       {/* Imagem do artigo */}
       <div style={{ width: "100%", marginBottom: "35px" }}>
         <img
-          src="/fundamentais1.jpg"
+          src={import.meta.env.BASE_URL + "fundamentais1.jpg"}
           alt="Raios cósmicos"
           style={{
             width: "100%",
@@ -168,3 +168,4 @@ export default function Fundamentais1() {
     </div>
   );
 }
+
