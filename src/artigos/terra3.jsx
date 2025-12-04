@@ -52,7 +52,7 @@ export default function Terra3({ setPage }) {
         }}
       >
         <img
-          src="/terra3.jpg"
+          src={import.meta.env.BASE_URL + "terra3.jpg"}
           alt="Imagem relacionada ao artigo"
           style={{
             width: "100%",
@@ -193,3 +193,4 @@ export default function Terra3({ setPage }) {
     </div>
   );
 }
+
