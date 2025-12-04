@@ -54,7 +54,7 @@ export default function Origens1({ setPage }) {
         }}
       >
         <img
-          src="/origens1.jpg"
+          src={import.meta.env.BASE_URL + "origens1.jpg"}
           alt="Imagem de remanescente de supernova"
           style={{
             width: "100%",
@@ -226,3 +226,4 @@ export default function Origens1({ setPage }) {
     </div>
   );
 }
+
