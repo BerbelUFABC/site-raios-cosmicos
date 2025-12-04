@@ -49,7 +49,7 @@ export default function Terra1() {
       {/* Imagem */}
       <div style={{ width: "100%", marginBottom: "40px" }}>
         <img
-          src="/terra1.jpg"
+          src={import.meta.env.BASE_URL + "terra1.jpg"}
           alt="Chuveiro atmosférico"
           style={{
             width: "100%",
@@ -165,3 +165,4 @@ export default function Terra1() {
     </div>
   );
 }
+
